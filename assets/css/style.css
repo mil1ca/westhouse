@@ -1,17 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@500&family=WindSong&display=swap');
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 :root {
-  --color-default: #57370D;
-  --color-primary: rgb(110, 84, 56);
+  --color-default: #222222;
+  --color-primary: #222222;
   --color-secondary: #493221;
   --color-tertiary: #cda45e;
 }
 body {
-  font-family: "Montserrat", sans-serif;
-  background-image: linear-gradient(#7b6447, rgb(173, 173, 173));
+  font-family: "Fugit", sans-serif;
+  background-color: #ECE5D6;
 }
 
 a {
@@ -34,7 +32,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: var(--color-default);
+  background: #222222;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -48,7 +46,7 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background: var(--color-primary);
+  background: #AC9886;
   color: #fff;
 }
 
@@ -74,7 +72,7 @@ a:hover {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: #57370D
+  background: #222222
 }
 
 #header .logo {
@@ -137,7 +135,7 @@ a:hover {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: var(--color-tertiary);
+  color: #DDC6A6;
 }
 
 .navbar .getstarted,
@@ -277,7 +275,7 @@ a:hover {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #ECE5D6;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -286,13 +284,13 @@ a:hover {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: var(--color-secondary);
+  color: #222222;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: grey
+  color: #AC9886
 }
 
 .navbar-mobile .getstarted,
@@ -342,7 +340,7 @@ a:hover {
 #hero {
   width: 100%;
   height: 80vh;
-  background-image: linear-gradient(#57370D, #906E49);
+  background-image: linear-gradient(#222222, #AC9886);
 }
 
 #hero .container {
@@ -375,12 +373,13 @@ a:hover {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
-  background: var(--color-secondary);
+  background: #222222;
   margin-top: 30px;
 }
 
 #hero .btn-get-started:hover {
-  background: var(--color-tertiary);
+  background: #ECE5D6;
+  color: #222222;
 }
 
 #hero .btn-watch-video {
@@ -504,7 +503,7 @@ section {
 .clients {
   padding: 12px 0;
   text-align: center;
-  background-color: white;
+  background-color: #ECE5D6;
 }
 
 .clients img {
@@ -512,7 +511,6 @@ section {
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
-  filter: grayscale(100);
 }
 
 .clients img:hover {
@@ -532,7 +530,7 @@ section {
 .about {
   position: relative;
   padding: 80px 0;
-  background-image: linear-gradient(#7b6447, rgb(173, 173, 173));
+  background-image: linear-gradient(#222222, #AC9886);
 }
 
 .about .content {
@@ -556,7 +554,7 @@ section {
 
 .about .about-img img {
   max-width: 100%;
-  border: 4px solid rgba(255, 255, 255, 0.2);
+  border: 4px solid #AC9886;
   position: relative;
 }
 
@@ -568,8 +566,8 @@ section {
   height: 60px;
   z-index: 1;
   content: "";
-  border-left: 5px solid #cda45e;
-  border-top: 5px solid #cda45e;
+  border-left: 5px solid #AC9886;
+  border-top: 5px solid #AC9886;
   transition: 0.5s;
 }
 
@@ -581,8 +579,8 @@ section {
   height: 60px;
   z-index: 2;
   content: "";
-  border-right: 5px solid #cda45e;
-  border-bottom: 5px solid #cda45e;
+  border-right: 5px solid #AC9886;
+  border-bottom: 5px solid #AC9886;
   transition: 0.5s;
 }
 
@@ -642,22 +640,22 @@ section {
 
 #product {
   background-image: none;
-  background-color: whitesmoke;
+  background-color: #ECE5D6;
 }
 
 #product h2 {
-  color: var(--color-default);
+  color: #222222;
 }
 
 #product h3 {
-  color: var(--color-default);
+  color: #222222;
   text-align: center;
   font-weight: 700;
   font-size: 32px;
 }
 
 #product p {
-  color: var(--color-default)
+  color: #222222;
 }
 
 #product h2 {
@@ -1301,20 +1299,23 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact {
+  background-image: linear-gradient(#222222, #AC9886);
+}
 .contact h3 {
   margin-bottom: 30px;
   text-align: center;
-  color: var(--color-default);
+  color: #222222;
   font-weight: 600;
 }
 
 .contact h2 {
   color: whitesmoke;
 }
-.contact .info {
 
+.contact .info {
   padding: 30px 30px 0px 30px;
-  background: whitesmoke;
+  background-color: #ECE5D6;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
@@ -1330,7 +1331,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: rgb(173, 137, 99);
+  background: #AC9886;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1343,14 +1344,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: var(--color-default);
+  color: #222222;
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: var(--color-primary);
+  color: #222222;
 }
 
 
@@ -1377,12 +1378,12 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: var(--color-secondary);
+  background: #AC9886;
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background-color: #906E49;
+  background-color: #222222;
 }
 
 #footer .footer-top .footer-contact {
@@ -1396,7 +1397,7 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: var(--color-default);
+  color: #AC9886;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1410,7 +1411,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: var(--color-default);
+  color: #AC9886;
   position: relative;
   padding-bottom: 12px;
   margin-top: 10px;
@@ -1452,13 +1453,13 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: var(--color-primary);
+  color: #AC9886;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: var(--color-default);
+  background: #AC9886;
   color: whitesmoke;
   line-height: 1;
   padding: 8px 0;
@@ -1510,4 +1511,12 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+}
+
+#kontakt h2 {
+  margin-top: 50px;
+}
+
+#kontejner {
+  margin-top: 50px;
 }
