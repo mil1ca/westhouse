@@ -630,6 +630,10 @@ section {
   margin-top: 50px;
 }
 
+#contact a {
+  color: var(--color-default);
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -750,6 +754,10 @@ section {
 
 #footer .credits a {
   transition: 0.3s;
+}
+
+#footer a {
+  color: whitesmoke;
 }
 
 @media (max-width: 768px) {
