@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: whitesmoke;
+  color: var(--color-default);
   text-decoration: none;
 }
 
