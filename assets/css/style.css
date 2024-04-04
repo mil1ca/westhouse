@@ -758,6 +758,10 @@ section {
   transition: 0.3s;
 }
 
+#footer a {
+  color: whitesmoke;
+}
+
 @media (max-width: 768px) {
   #footer .footer-bottom {
     padding-top: 20px;
