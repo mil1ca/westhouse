@@ -629,16 +629,8 @@ section {
   margin-top: 50px;
 }
 
-#contact a {
-  color: var(--color-default);
-}
-
 .phone a {
   color: var(--color-default);
-}
-
-.phone p {
-  color: var(--color-default)
 }
 
 /*--------------------------------------------------------------
