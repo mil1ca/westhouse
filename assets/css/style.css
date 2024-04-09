@@ -420,6 +420,7 @@ section {
 
 .about p {
   color: whitesmoke;
+  text-align: justify;
 }
 
 .about .about-img {
@@ -533,6 +534,7 @@ section {
 
 #product p {
   color: #222222;
+  text-align: justify;
 }
 
 #product h2 {
